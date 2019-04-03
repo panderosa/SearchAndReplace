@@ -1,0 +1,17 @@
+{
+  "name": "oo-rp",
+  "version": "1.0.0",
+  "description": "List System Properties Dependent Flows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dariusz Malinowski",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  },
+  "bundledDependencies": ["minimist", "xmldom", "xpath"]
+}
